@@ -1,0 +1,11 @@
+Narration: Dan and Jake meet each other at the office and start working on a new project.
+Dan => Jake: Hey Jake, how was your weekend?
+Jake => Dan: It was awesome — went hiking up at Mt. Tam. How was yours?
+Dan => Jake: Pretty quiet. I sketched out the auth flow we talked about Friday.
+Narration: Mia joins from Desk 1 with her laptop tucked under her arm.
+Mia => Dan: Morning! I have the design spec ready for review whenever you're free.
+Dan => Mia: Perfect timing. Drop it in the channel and I'll dig in after standup.
+Jake => Mia: I'll take a look too — curious about the onboarding screen.
+Narration: Leo waves from Desk 2, headphones still on.
+Leo => Jake: Did the staging deploy go through last night?
+Jake => Leo: Green across the board. We're good to demo at 2.

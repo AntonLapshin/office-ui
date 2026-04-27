@@ -1,0 +1,6 @@
+{
+  "dan":  { "name": "Dan Ortega",   "age": 29, "mood": "Focused",  "action": "Pairing on auth flow",      "initials": "DO", "gradient": ["#6366f1", "#a855f7"] },
+  "jake": { "name": "Jake Liu",     "age": 31, "mood": "Cheerful", "action": "Reviewing PRs",             "initials": "JL", "gradient": ["#8b5cf6", "#ec4899"] },
+  "mia":  { "name": "Mia Park",     "age": 27, "mood": "Heads-down","action": "Drafting design spec",     "initials": "MP", "gradient": ["#06b6d4", "#6366f1"] },
+  "leo":  { "name": "Leo Andersen", "age": 34, "mood": "Curious",  "action": "Skimming the timeline",     "initials": "LA", "gradient": ["#10b981", "#6366f1"] }
+}
