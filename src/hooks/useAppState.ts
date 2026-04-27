@@ -15,6 +15,10 @@ export function useAppState(): AppState & { sendMessage: (msg: string) => void }
   const [connected, setConnected] = useState(false);
 
   useEffect(() => {
+    setWaitingForInput(session?.turnPhase === 'character-turn');
+  }, [session])
+
+  useEffect(() => {
     let cancelled = false;
 
     async function load(): Promise<void> {
