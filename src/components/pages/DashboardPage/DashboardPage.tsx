@@ -1,12 +1,12 @@
 import { useState, useCallback } from "react";
-import { useAppState } from "@/hooks/useAppState";
-import { DashboardLayout } from "@/components/templates/DashboardLayout";
-import { TopBar } from "@/components/organisms/TopBar";
-import { SpaceView } from "@/components/organisms/SpaceView";
-import { Timeline } from "@/components/organisms/Timeline";
-import { Toast } from "@/components/organisms/Toast";
-import { HoverCard } from "@/components/molecules/HoverCard";
-import type { CharacterUI } from "@/types";
+import { useAppState } from "../../../hooks/useAppState";
+import { DashboardLayout } from "../../../components/templates/DashboardLayout";
+import { TopBar } from "../../../components/organisms/TopBar";
+import { SpaceView } from "../../../components/organisms/SpaceView";
+import { Timeline } from "../../../components/organisms/Timeline";
+import { Toast } from "../../../components/organisms/Toast";
+import { HoverCard } from "../../../components/molecules/HoverCard";
+import type { CharacterUI } from "../../../types";
 
 export function DashboardPage(): React.ReactElement {
   const {

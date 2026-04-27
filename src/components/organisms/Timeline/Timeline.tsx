@@ -1,11 +1,11 @@
 import { useRef, useEffect, useMemo } from "react";
-import { GlassPanel } from "@/components/atoms/GlassPanel";
-import { PanelHeader } from "@/components/atoms/PanelHeader";
-import { NarrationDivider } from "@/components/molecules/NarrationDivider";
-import { MessageBubble } from "@/components/molecules/MessageBubble";
-import { ChatComposer } from "@/components/molecules/ChatComposer";
-import { parseTimeline } from "@/lib/timelineParser";
-import type { CharacterUI } from "@/types";
+import { GlassPanel } from "../../atoms/GlassPanel";
+import { PanelHeader } from "../../atoms/PanelHeader";
+import { NarrationDivider } from "../../molecules/NarrationDivider";
+import { MessageBubble } from "../../molecules/MessageBubble";
+import { ChatComposer } from "../../molecules/ChatComposer";
+import { parseTimeline } from "../../../lib/timelineParser";
+import type { CharacterUI } from "../../../types";
 
 export interface TimelineProps {
   lines: string[];

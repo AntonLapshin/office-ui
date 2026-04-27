@@ -1,4 +1,4 @@
-import type { SpaceLayout } from "@/types";
+import type { SpaceLayout } from "../types";
 
 export const getLayoutMock = async (): Promise<SpaceLayout> => {
   await new Promise((r) => setTimeout(r, 200));

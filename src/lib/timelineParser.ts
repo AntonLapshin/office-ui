@@ -1,4 +1,4 @@
-import type { TimelineEntry } from "@/types";
+import type { TimelineEntry } from "../types";
 
 const MESSAGE_RE = /^([A-Za-z][\w\- ]*)\s*=>\s*([A-Za-z][\w\- ]*)\s*:\s*(.*)$/;
 const NARRATION_RE = /^\[Narration\]\s*(.*)$/;

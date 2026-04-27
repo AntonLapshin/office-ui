@@ -1,4 +1,4 @@
-import type { SpaceObject as SpaceObjectType } from "@/types";
+import type { SpaceObject as SpaceObjectType } from "../../../types";
 
 export interface SpaceObjectProps {
   object: SpaceObjectType;

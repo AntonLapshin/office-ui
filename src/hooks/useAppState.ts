@@ -1,8 +1,8 @@
 import { useState, useEffect, useContext, useMemo, useCallback } from "react";
-import type { AppState, CharacterState, CharacterUI, SpaceLayout } from "@/types";
-import { ContextSideEffects } from "@/contexts/ContextSideEffects";
-import { buildCharacterMap } from "@/lib/characterMeta";
-import { resolveCharacterPositions } from "@/lib/spacePositions";
+import type { AppState, CharacterState, CharacterUI, SpaceLayout } from "../types";
+import { ContextSideEffects } from "../contexts/ContextSideEffects";
+import { buildCharacterMap } from "../lib/characterMeta";
+import { resolveCharacterPositions } from "../lib/spacePositions";
 
 export function useAppState(): AppState & { sendMessage: (msg: string) => void } {
   const sideEffects = useContext(ContextSideEffects);

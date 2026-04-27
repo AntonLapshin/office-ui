@@ -1,4 +1,4 @@
-import type { Session, CharacterState } from "@/types";
+import type { Session, CharacterState } from "../types";
 
 export type GetStateResult = {
   session: Session;

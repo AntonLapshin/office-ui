@@ -1,9 +1,9 @@
 import { useRef, useState, useEffect } from "react";
-import { GlassPanel } from "@/components/atoms/GlassPanel";
-import { PanelHeader } from "@/components/atoms/PanelHeader";
-import { Avatar } from "@/components/atoms/Avatar";
-import { SpaceObject } from "@/components/molecules/SpaceObject";
-import type { SpaceLayout, CharacterUI, CharacterPosition } from "@/types";
+import { GlassPanel } from "../../atoms/GlassPanel";
+import { PanelHeader } from "../../atoms/PanelHeader";
+import { Avatar } from "../../atoms/Avatar";
+import { SpaceObject } from "../../molecules/SpaceObject";
+import type { SpaceLayout, CharacterUI, CharacterPosition } from "../../../types";
 
 export interface SpaceViewProps {
   layout: SpaceLayout;

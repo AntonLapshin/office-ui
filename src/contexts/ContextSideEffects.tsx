@@ -1,13 +1,13 @@
 import { createContext } from "react";
-import type { SSEEventHandlers, Session, CharacterState, SpaceLayout } from "@/types";
-import type { GetStateResult } from "@/sideEffects/getState";
-import type { GetTimelineResult } from "@/sideEffects/getTimeline";
-import type { SendMessageResult } from "@/sideEffects/sendMessage";
-import { getStateProd } from "@/sideEffects/getState.prod";
-import { getTimelineProd } from "@/sideEffects/getTimeline.prod";
-import { getLayoutProd } from "@/sideEffects/getLayout.prod";
-import { sendMessageProd } from "@/sideEffects/sendMessage.prod";
-import { subscribeToEventsProd } from "@/sideEffects/subscribeToEvents.prod";
+import type { SSEEventHandlers, Session, CharacterState, SpaceLayout } from "../types";
+import type { GetStateResult } from "../sideEffects/getState";
+import type { GetTimelineResult } from "../sideEffects/getTimeline";
+import type { SendMessageResult } from "../sideEffects/sendMessage";
+import { getStateProd } from "../sideEffects/getState.prod";
+import { getTimelineProd } from "../sideEffects/getTimeline.prod";
+import { getLayoutProd } from "../sideEffects/getLayout.prod";
+import { sendMessageProd } from "../sideEffects/sendMessage.prod";
+import { subscribeToEventsProd } from "../sideEffects/subscribeToEvents.prod";
 
 export interface SideEffects {
   getState: () => Promise<GetStateResult>;

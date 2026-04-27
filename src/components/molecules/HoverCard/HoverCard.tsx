@@ -1,7 +1,7 @@
 import { useMemo } from "react";
-import { Avatar } from "@/components/atoms/Avatar";
-import { getMoodTone } from "@/lib/moodColor";
-import type { CharacterUI } from "@/types";
+import { Avatar } from "../../atoms/Avatar";
+import { getMoodTone } from "../../../lib/moodColor";
+import type { CharacterUI } from "../../../types";
 
 export interface HoverCardProps {
   character: CharacterUI;

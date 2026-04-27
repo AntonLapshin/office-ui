@@ -1,5 +1,5 @@
 import { DashboardLayout } from "./DashboardLayout";
-import { GlassPanel } from "@/components/atoms/GlassPanel";
+import { GlassPanel } from "../../atoms/GlassPanel";
 
 export default { title: "templates/DashboardLayout" };
 

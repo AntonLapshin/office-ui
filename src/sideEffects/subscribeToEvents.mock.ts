@@ -1,4 +1,4 @@
-import type { SSEEventHandlers } from "@/types";
+import type { SSEEventHandlers } from "../types";
 
 interface MockSpeechEvent {
   type: "speech";

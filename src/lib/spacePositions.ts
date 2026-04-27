@@ -1,4 +1,4 @@
-import type { CharacterState, CharacterPosition, SpaceLayout } from "@/types";
+import type { CharacterState, CharacterPosition, SpaceLayout } from "../types";
 
 const AVATAR_SPREAD = 44;
 

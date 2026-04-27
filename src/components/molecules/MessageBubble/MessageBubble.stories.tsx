@@ -1,5 +1,5 @@
 import { MessageBubble } from "./MessageBubble";
-import type { CharacterUI } from "@/types";
+import type { CharacterUI } from "../../../types";
 
 export default { title: "molecules/MessageBubble" };
 

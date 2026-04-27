@@ -1,5 +1,5 @@
-import { Avatar } from "@/components/atoms/Avatar";
-import type { CharacterUI } from "@/types";
+import { Avatar } from "../../atoms/Avatar";
+import type { CharacterUI } from "../../../types";
 
 export interface MessageBubbleProps {
   speaker: CharacterUI;

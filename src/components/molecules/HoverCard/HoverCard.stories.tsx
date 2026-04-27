@@ -1,5 +1,5 @@
 import { HoverCard } from "./HoverCard";
-import type { CharacterUI } from "@/types";
+import type { CharacterUI } from "../../../types";
 
 export default { title: "molecules/HoverCard" };
 

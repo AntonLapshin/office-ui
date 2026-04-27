@@ -1,6 +1,6 @@
 import { test, expect, describe } from "bun:test";
 import { resolveCharacterPositions } from "./spacePositions";
-import type { SpaceLayout, CharacterState } from "@/types";
+import type { SpaceLayout, CharacterState } from "../types";
 
 const layout: SpaceLayout = {
   name: "Test Office",

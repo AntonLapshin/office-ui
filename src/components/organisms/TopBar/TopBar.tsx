@@ -1,6 +1,6 @@
-import { StatusDot } from "@/components/atoms/StatusDot";
-import { BurgerMenu } from "@/components/molecules/BurgerMenu";
-import type { Session } from "@/types";
+import { StatusDot } from "../../atoms/StatusDot";
+import { BurgerMenu } from "../../molecules/BurgerMenu";
+import type { Session } from "../../../types";
 
 export interface TopBarProps {
   session: Session | null;

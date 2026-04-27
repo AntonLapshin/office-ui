@@ -1,7 +1,7 @@
 import { SpaceView } from "./SpaceView";
-import { buildCharacterMap } from "@/lib/characterMeta";
-import { resolveCharacterPositions } from "@/lib/spacePositions";
-import type { SpaceLayout, CharacterState } from "@/types";
+import { buildCharacterMap } from "../../../lib/characterMeta";
+import { resolveCharacterPositions } from "../../../lib/spacePositions";
+import type { SpaceLayout, CharacterState } from "../../../types";
 
 export default { title: "organisms/SpaceView" };
 

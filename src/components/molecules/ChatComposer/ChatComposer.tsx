@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-import { GradientButton } from "@/components/atoms/GradientButton";
+import { GradientButton } from "../../atoms/GradientButton";
 
 export interface ChatComposerProps {
   onSend: (message: string) => void;

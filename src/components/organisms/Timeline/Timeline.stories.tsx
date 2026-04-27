@@ -1,6 +1,6 @@
 import { Timeline } from "./Timeline";
-import { buildCharacterMap } from "@/lib/characterMeta";
-import type { CharacterState } from "@/types";
+import { buildCharacterMap } from "../../../lib/characterMeta";
+import type { CharacterState } from "../../../types";
 
 export default { title: "organisms/Timeline" };
 

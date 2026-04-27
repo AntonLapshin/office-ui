@@ -1,4 +1,4 @@
-import type { SSEEventHandlers, CharacterState } from "@/types";
+import type { SSEEventHandlers, CharacterState } from "../types";
 
 export const subscribeToEventsProd = (handlers: SSEEventHandlers): (() => void) => {
   let es: EventSource | null = null;
@@ -7,7 +7,7 @@ export const subscribeToEventsProd = (handlers: SSEEventHandlers): (() => void) 
 
   function connect(): void {
     if (closed) return;
-    es = new EventSource("/api/events");
+    es = new EventSource("http://localhost:3001/api/events");
 
     es.addEventListener("speech", (e) => {
       const data = JSON.parse(e.data) as { line: string };

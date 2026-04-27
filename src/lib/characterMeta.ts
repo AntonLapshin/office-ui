@@ -1,4 +1,4 @@
-import type { CharacterState, CharacterUI } from "@/types";
+import type { CharacterState, CharacterUI } from "../types";
 
 const GRADIENT_PALETTE: [string, string][] = [
   ["#6366f1", "#a855f7"],

@@ -1,5 +1,5 @@
 import { TopBar } from "./TopBar";
-import type { Session } from "@/types";
+import type { Session } from "../../../types";
 
 export default { title: "organisms/TopBar" };
 
