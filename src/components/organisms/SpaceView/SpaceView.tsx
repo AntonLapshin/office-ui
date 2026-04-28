@@ -24,23 +24,23 @@ export function SpaceView({
   const containerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
 
-  useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
+  // useEffect(() => {
+  //   const el = containerRef.current;
+  //   if (!el) return;
 
-    const observer = new ResizeObserver((entries) => {
-      const entry = entries[0];
-      if (!entry) return;
-      const cw = entry.contentRect.width - MARGIN * 2;
-      const ch = entry.contentRect.height - MARGIN * 2;
-      const sx = cw / layout.bounds.width;
-      const sy = ch / layout.bounds.height;
-      setScale(Math.min(sx, sy, MAX_SCALE));
-    });
+  //   const observer = new ResizeObserver((entries) => {
+  //     const entry = entries[0];
+  //     if (!entry) return;
+  //     const cw = entry.contentRect.width - MARGIN * 2;
+  //     const ch = entry.contentRect.height - MARGIN * 2;
+  //     const sx = cw / layout.bounds.width;
+  //     const sy = ch / layout.bounds.height;
+  //     setScale(Math.min(sx, sy, MAX_SCALE));
+  //   });
 
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, [layout.bounds.width, layout.bounds.height]);
+  //   observer.observe(el);
+  //   return () => observer.disconnect();
+  // }, [layout.bounds.width, layout.bounds.height]);
 
   return (
     <GlassPanel className="flex flex-col h-full">
@@ -58,7 +58,7 @@ export function SpaceView({
           </span>
         }
       />
-      <div ref={containerRef} className="flex-1 relative overflow-hidden flex items-center justify-center">
+      <div ref={containerRef} className="flex-1 relative overflow-auto flex items-center justify-center">
         <div
           className="relative"
           style={{

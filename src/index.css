@@ -5,6 +5,11 @@
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 }
 
+html, body, #root {
+  height: 100vh;
+  overflow: hidden;
+}
+
 @layer base {
   :root {
     color-scheme: dark;

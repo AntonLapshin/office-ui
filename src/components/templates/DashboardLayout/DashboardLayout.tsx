@@ -13,7 +13,7 @@ export function DashboardLayout({
 }: DashboardLayoutProps): React.ReactElement {
   return (
     <div
-      className="min-h-screen relative"
+      className="h-full overflow-hidden flex flex-col"
       style={{
         background: `
           radial-gradient(ellipse 80% 50% at 20% 40%, rgba(99,102,241,0.08), transparent),
